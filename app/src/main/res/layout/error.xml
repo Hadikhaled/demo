@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:id="@+id/errorlayout"
+    >
+ <ImageView
+     android:id="@+id/errorimg"
+     android:layout_marginTop="60dp"
+     android:layout_centerHorizontal="true"
+     android:layout_width="200dp"
+     android:layout_height="200dp"
+     android:src="@drawable/no_result">
+
+
+ </ImageView>
+    <TextView
+        android:layout_below="@+id/errorimg"
+        android:id="@+id/errortitle"
+
+        android:textColor="@color/colorTextTitle"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error Title"/>
+    <TextView
+        android:layout_below="@+id/errortitle"
+        android:id="@+id/errormessage"
+
+        android:textColor="@color/colorTextTitle"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Error message"/>
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errormessage"
+        android:layout_centerHorizontal="true"
+        android:text="Error Message"
+        android:textColor="@color/colorTextSubtitle"
+        app:backgroundTint="#8A7D7D" />
+</RelativeLayout>

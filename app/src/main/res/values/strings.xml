@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App_news</string>
+    <string-array name="string_array">
+
+        <item>hadi</item>
+        <item>darsh</item>
+        <item>hoda</item>
+
+
+    </string-array>
+</resources>
